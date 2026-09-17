@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahmoud — AI + Software Builder</title>
+<meta name="description" content="Portfolio of Mahmoud — AI/ML developer working on RAG systems, ML pipelines, and AI-powered apps.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#about">Skip to content</a>
+
+<!-- ============ NAV — static, transparent, scrolls away ============ -->
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Main">
+    <a class="nav-logo" href="#top">Mahmoud Ebrahim</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="wrap hero-inner">
+
+      <div class="hero-copy">
+        <p class="hero-eyebrow">Mahmoud / AI + Software Builder</p>
+
+        <h1 id="hero-heading" class="hero-heading">
+          I build things that think, I make them fast, and I make them look good doing it.
+        </h1>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">See the work</a>
+          <a class="btn btn-secondary" href="#contact">Say hello</a>
+        </div>
+
+        <ul class="chips" aria-label="Focus areas">
+          <li>RAG systems</li>
+          <li>ML pipelines</li>
+          <li>Computer vision</li>
+          <li>AI apps</li>
+        </ul>
+      </div>
+
+      <div class="hero-avatar">
+        <!-- Pixel-art avatar: hard edges, no anti-aliasing, single bold border -->
+        <svg class="avatar" viewBox="0 0 16 16" shape-rendering="crispEdges"
+             role="img" aria-label="Pixel-art portrait of Mahmoud wearing headphones">
+          <rect x="0" y="0" width="16" height="16" fill="#231F20"/>
+
+          <g fill="#FFD800">
+            <rect x="4" y="1" width="8" height="1"/>
+            <rect x="3" y="2" width="2" height="1"/>
+            <rect x="11" y="2" width="2" height="1"/>
+            <rect x="3" y="3" width="1" height="2"/>
+            <rect x="12" y="3" width="1" height="2"/>
+            <rect x="2" y="5" width="2" height="3"/>
+            <rect x="12" y="5" width="2" height="3"/>
+          </g>
+
+          <g fill="#D02019">
+            <rect x="5" y="2" width="6" height="1"/>
+            <rect x="4" y="3" width="8" height="2"/>
+            <rect x="4" y="5" width="1" height="3"/>
+            <rect x="11" y="5" width="1" height="3"/>
+          </g>
+
+          <g fill="#F2F0EA">
+            <rect x="5" y="5" width="6" height="4"/>
+            <rect x="6" y="9" width="4" height="1"/>
+            <rect x="7" y="10" width="2" height="1"/>
+            <rect x="4" y="11" width="8" height="1"/>
+            <rect x="3" y="12" width="10" height="4"/>
+          </g>
+
+          <g fill="#231F20">
+            <rect x="6" y="6" width="1" height="1"/>
+            <rect x="9" y="6" width="1" height="1"/>
+            <rect x="7" y="8" width="2" height="1"/>
+          </g>
+
+          <g fill="#D02019">
+            <rect x="7" y="11" width="2" height="1"/>
+            <rect x="6" y="12" width="4" height="1"/>
+            <rect x="7" y="13" width="2" height="1"/>
+          </g>
+        </svg>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about" aria-labelledby="about-heading">
+    <div class="wrap">
+      <h2 class="section-heading" id="about-heading">Engineer, builder, and a little too into how things work.</h2>
+
+      <div class="about-grid">
+        <div class="about-prose">
+          <p>Most of what I build lives at the intersection of AI and usable software — RAG pipelines, ML models, and the infrastructure that makes them actually work. Recent builds: a startup-investor matching engine, a chatbot that knows F1 technical regulations better than most stewards, and a real-time system that sorts recyclables faster than I sort my own laundry.</p>
+          
+        </div>
+
+        <dl class="stats">
+          <div class="stat-row">
+            <dt>Role</dt>
+            <dd>AI/ML developer</dd>
+          </div>
+          <div class="stat-row">
+            <dt>Focus</dt>
+            <dd>RAG systems / ML pipelines / AI apps</dd>
+          </div>
+          <div class="stat-row">
+            <dt>Campus</dt>
+            <dd>Mansoura University</dd>
+          </div>
+          <div class="stat-row">
+            <dt>Status</dt>
+            <dd>Final-year ECE student</dd>
+          </div>
+          <div class="stat-row">
+            <dt>Current Mode</dt>
+            <dd>Building useful, fast, and slightly obsessive things</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects" aria-labelledby="projects-heading">
+    <div class="wrap">
+      <h2 class="section-heading" id="projects-heading">A few things I've shipped, broken, and shipped again.</h2>
+
+      <ol class="project-list">
+
+        <li class="project">
+          <span class="project-num" aria-hidden="true">01</span>
+          <p class="project-cat">RAG chatbot</p>
+          <h3 class="project-title">F1 Technical Regulations RAG Chatbot</h3>
+          <p class="project-tagline">RAG-powered, rulebook-obsessed, more consistent than Ferrari strategies.</p>
+          <ul class="tags" aria-label="Tech stack">
+            <li>Python</li><li>LangChain</li><li>RAG</li><li>ChromaDB</li>
+          </ul>
+          <a class="project-link" href="https://github.com/B-MEbrahim/F1-QA-RAG" target="_blank" rel="noopener">github.com/B-MEbrahim/F1-QA-RAG</a>
+        </li>
+
+        <li class="project">
+          <span class="project-num" aria-hidden="true">02</span>
+          <p class="project-cat">Computer vision</p>
+          <h3 class="project-title">Recycling Detection</h3>
+          <p class="project-tagline">Real-time vision that knows plastic from paper — no guessing, no landfill regret.</p>
+          <ul class="tags" aria-label="Tech stack">
+            <li>Python</li><li>YOLOv8</li><li>FastAPI</li><li>REST API</li>
+          </ul>
+          <a class="project-link" href="https://github.com/B-MEbrahim/Recycling-Detection" target="_blank" rel="noopener">github.com/B-MEbrahim/Recycling-Detection</a>
+        </li>
+
+        <li class="project">
+          <span class="project-num" aria-hidden="true">03</span>
+          <p class="project-cat">AI matching engine</p>
+          <h3 class="project-title">FounderX</h3>
+          <p class="project-tagline">Matching startups with investors, minus the awkward small talk.</p>
+          <ul class="tags" aria-label="Tech stack">
+            <li>Python</li><li>LangChain</li><li>ChromaDB</li><li>FastAPI</li>
+          </ul>
+          <p class="project-status">Placed top 5 — VICTORIES 4 AI-powered apps competition (IEEE Mansoura SB)</p>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills" aria-labelledby="skills-heading">
+    <div class="wrap">
+      <h2 class="section-heading" id="skills-heading">The stack behind the chaos.</h2>
+
+      <div class="skill-group">
+        <h3 class="skill-cat">Languages</h3>
+        <ul class="tags tags-lg">
+          <li>Python</li><li>SQL</li><li>Java</li><li>C</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-cat">Data &amp; ML</h3>
+        <ul class="tags tags-lg">
+          <li>Pandas</li><li>NumPy</li><li>Scikit-learn</li><li>TensorFlow</li><li>PyTorch</li>
+          <li>Feature Engineering</li><li>Model Evaluation</li><li>Time Series</li><li>A/B Testing</li><li>Statistics</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-cat">RAG &amp; AI Systems</h3>
+        <ul class="tags tags-lg">
+          <li>LangChain</li><li>LangServe</li><li>ChromaDB</li><li>FAISS</li><li>Embeddings</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-cat">Computer Vision</h3>
+        <ul class="tags tags-lg">
+          <li>OpenCV</li><li>Ultralytics</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-cat">Deployment &amp; Tools</h3>
+        <ul class="tags tags-lg">
+          <li>FastAPI</li><li>Streamlit</li><li>Docker</li><li>Git</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT — near-black footer band ============ -->
+<footer class="contact" id="contact" aria-labelledby="contact-heading">
+  <div class="wrap">
+    <h2 class="section-heading contact-heading" id="contact-heading">Say hello. I reply faster than most chatbots.</h2>
+
+    <ul class="contact-list">
+      <li>
+        <span class="contact-label">Email</span>
+        <a href="mailto:mahmoudebr24@gmail.com">mahmoudebr24@gmail.com</a>
+      </li>
+      <li>
+        <span class="contact-label">GitHub</span>
+        <a href="https://github.com/B-MEbrahim" target="_blank" rel="noopener">github.com/B-MEbrahim</a>
+      </li>
+      <li>
+        <span class="contact-label">LinkedIn</span>
+        <a href="https://www.linkedin.com/in/mahmoud-ebrahim217" target="_blank" rel="noopener">www.linkedin.com/in/mahmoud-ebrahim217</a>
+      </li>
+    </ul>
+
+    <p class="contact-foot">Built by hand — HTML, CSS, and vanilla JS. No frameworks were harmed.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
